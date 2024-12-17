@@ -22,6 +22,8 @@ public class BestTimeToBuyAndSellStock188
             return maxProfit;
         }
 
+        // k times
+        int[,] dp = new int[k * 2, prices.Length];
         // todo
         return 0;
     }

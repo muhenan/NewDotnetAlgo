@@ -53,10 +53,6 @@ public class BestTimeToBuyAndSellStock123
             buy2 = Math.Max(oldBuy2, oldSell1 - prices[i]);
             sell2 = Math.Max(oldSell2, oldBuy2 + prices[i]);
         }
-
         return sell2;
     }
-    
-    // todo
-    // do this int[][] maxProfit = new int[k + 1][n];
 }
